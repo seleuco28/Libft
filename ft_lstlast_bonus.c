@@ -1,18 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstlast.c                                       :+:      :+:    :+:   */
+/*   ft_lstlast_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvelazq <alvelazq@student.42.fr>          +#+  +:+       +#+        */
+/*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/06 10:57:42 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/09 12:14:28 by alvelazq         ###   ########.fr       */
+/*   Updated: 2022/04/29 17:08:15 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//#include <stdlib.h>
-//#include <stdio.h>
 
 t_list	*ft_lstlast(t_list *lst)
 {
@@ -27,7 +25,6 @@ t_list	*ft_lstlast(t_list *lst)
 	}
 	return (0);
 }
-
 /*
 int		main(void)
 {

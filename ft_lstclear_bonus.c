@@ -1,19 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstclear.c                                      :+:      :+:    :+:   */
+/*   ft_lstclear_bonus.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvelazq <alvelazq@student.42.fr>          +#+  +:+       +#+        */
+/*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 13:04:31 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/09 12:13:45 by alvelazq         ###   ########.fr       */
+/*   Updated: 2022/04/29 17:00:28 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//#include "ft_lstdelone.c"
-//#include <stdio.h>
-//#include <stdlib.h>
+//#include "ft_lstdelone_bonus.c"
 
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {

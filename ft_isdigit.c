@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvelazq <alvelazq@student.42.fr>          +#+  +:+       +#+        */
+/*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/21 13:38:39 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/11 12:34:35 by alvelazq         ###   ########.fr       */
+/*   Updated: 2022/04/29 16:47:17 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,8 @@ int	ft_isdigit(int c)
 /*
 int main(void)
 {
-    printf("%d\n", ft_isdigit('a'));
-    printf("%d\n", isdigit('9'));
+    printf("%d\n", ft_isdigit('9'));
+    printf("%d\n", isdigit('a'));
     return(0);
 }
 */

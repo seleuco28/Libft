@@ -3,16 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvelazq <alvelazq@student.42.fr>          +#+  +:+       +#+        */
+/*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/26 17:10:39 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/09 12:21:48 by alvelazq         ###   ########.fr       */
+/*   Updated: 2022/04/29 17:24:42 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//#include <stdio.h>
-#include <stdlib.h>
+//#include "ft_strlen.c"
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

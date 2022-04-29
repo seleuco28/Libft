@@ -1,20 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstmap.c                                        :+:      :+:    :+:   */
+/*   ft_lstmap_bonus.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvelazq <alvelazq@student.42.fr>          +#+  +:+       +#+        */
+/*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/08 08:37:18 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/09 10:50:24 by alvelazq         ###   ########.fr       */
+/*   Updated: 2022/04/29 17:09:24 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//#include "ft_lstnew.c"
-//#include "ft_lstclear.c"
-//#include "ft_lstadd_back.c"
-#include <stdlib.h>
+//#include "ft_lstnew_bonus.c"
+//#include "ft_lstclear_bonus.c"
+//#include "ft_lstadd_back_bonus.c"
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {

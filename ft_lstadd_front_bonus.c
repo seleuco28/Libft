@@ -1,18 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstadd_front.c                                  :+:      :+:    :+:   */
+/*   ft_lstadd_front_bonus.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvelazq <alvelazq@student.42.fr>          +#+  +:+       +#+        */
+/*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/05 10:01:29 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/09 12:13:12 by alvelazq         ###   ########.fr       */
+/*   Updated: 2022/04/29 17:00:00 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//#include "ft_lstnew.c"
-//#include <stdio.h>
+//#include "ft_lstnew_bonus.c"
 
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvelazq <alvelazq@student.42.fr>          +#+  +:+       +#+        */
+/*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/22 10:54:00 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/11 12:37:38 by alvelazq         ###   ########.fr       */
+/*   Updated: 2022/04/29 17:28:33 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,6 @@ size_t	ft_strlcpy(char *restrict dst, const char *restrict src, size_t dstsize)
 	dst[i] = '\0';
 	return (count);
 }
-
 /*
 int		main(void)
 {

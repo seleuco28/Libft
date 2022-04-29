@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvelazq <alvelazq@student.42.fr>          +#+  +:+       +#+        */
+/*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/22 15:44:01 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/11 12:39:35 by alvelazq         ###   ########.fr       */
+/*   Updated: 2022/04/29 17:41:24 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@ int	ft_toupper(int c)
 		c -= 32;
 	return (c);
 }
-
 /*
 int main(void)
 {

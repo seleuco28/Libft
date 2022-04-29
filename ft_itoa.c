@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvelazq <alvelazq@student.42.fr>          +#+  +:+       +#+        */
+/*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/29 12:52:37 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/09 12:00:52 by alvelazq         ###   ########.fr       */
+/*   Updated: 2022/04/29 16:51:03 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//#include <stdio.h>
-#include <stdlib.h>
 
 static	int	ft_len(int nbr)
 {
@@ -55,11 +53,10 @@ char	*ft_itoa(int n)
 		str[0] = '-';
 	return (str);
 }
-
 /*
 int main(void)
 {
-    printf("%s\n", ft_itoa(-8124));
+    printf("%s\n", ft_itoa(-65));
 
     return (0);
 }

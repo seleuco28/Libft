@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvelazq <alvelazq@student.42.fr>          +#+  +:+       +#+        */
+/*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 11:44:44 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/11 12:37:11 by alvelazq         ###   ########.fr       */
+/*   Updated: 2022/04/29 17:21:15 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//#include <stdio.h>
-#include <stdlib.h>
 
 char	*ft_strdup(const char *s1)
 {
@@ -34,7 +32,6 @@ char	*ft_strdup(const char *s1)
 	str[i] = '\0';
 	return (str);
 }
-
 /*
 int main(void)
 {

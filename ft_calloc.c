@@ -3,17 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvelazq <alvelazq@student.42.fr>          +#+  +:+       +#+        */
+/*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 10:14:24 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/09 11:57:30 by alvelazq         ###   ########.fr       */
+/*   Updated: 2022/04/29 16:38:55 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 //#include "ft_bzero.c"
-#include <stdio.h>
-#include <stdlib.h>
 
 void	*ft_calloc(size_t count, size_t size)
 {
@@ -38,7 +36,7 @@ int main(void)
     int contador;
 
     tamañoArray = 10;
-    valores = 5;
+    valores = 4;
     dato = 2;
 
     arrayCalloc = (int*)ft_calloc(tamañoArray, sizeof(int));
@@ -46,11 +44,9 @@ int main(void)
     for (contador=0; contador<valores; contador++){
     arrayCalloc[contador] = dato;
     }
-
     for(contador=0; contador<(tamañoArray); contador++){
         printf("%d, ", arrayCalloc[contador]);
     }
-
     return(0);
 }
 */

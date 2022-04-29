@@ -3,17 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvelazq <alvelazq@student.42.fr>          +#+  +:+       +#+        */
+/*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/28 08:42:11 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/11 13:07:14 by alvelazq         ###   ########.fr       */
+/*   Updated: 2022/04/29 17:36:48 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 //#include "ft_strlen.c"
-#include <stdio.h>
-#include <stdlib.h>
 
 static	int	ft_char_dentro(char c, char const *set)
 {
@@ -56,8 +54,8 @@ char	*ft_strtrim(char const *s1, char const *set)
 /*
 int main(void)
 {
-	char s1[] = "           ";
-	char set[] = " ";
+	char s1[] = "25hEllo World 35d mj25";
+	char set[] = "25";
 
 	printf("%s\n", ft_strtrim(s1, set));
 	return(0);

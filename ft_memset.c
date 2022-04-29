@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvelazq <alvelazq@student.42.fr>          +#+  +:+       +#+        */
+/*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/21 15:52:32 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/11 13:09:19 by alvelazq         ###   ########.fr       */
+/*   Updated: 2022/04/29 17:16:31 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//#include <stdio.h>
-//#include <string.h>
 
 void	*ft_memset(void *b, int c, size_t len)
 {
@@ -28,7 +26,6 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
-
 /*
 int main (void) {
    char str[] = "Holaquetal";

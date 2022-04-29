@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvelazq <alvelazq@student.42.fr>          +#+  +:+       +#+        */
+/*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/22 09:54:54 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/09 12:16:26 by alvelazq         ###   ########.fr       */
+/*   Updated: 2022/04/29 17:15:29 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-//#include <stdio.h>
-//#include <string.h>
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {
@@ -39,13 +37,13 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 /*
 int main(void)
 {
-	char dest[] = "holahola";
-    char src[] = "adios";
-	char dest1[] = "holahola";
-	char src1[] = "adios";
+	char dest[] = "wenii";
+    char src[] = "hola";
+	char dest1[] = "wenii";
+	char src1[] = "hola";
 
-    printf("%s\n", memmove(dest, src, 3));
-	printf("%s\n", ft_memmove(dest, src, 3));
+    printf("%s\n", (char *)memmove(dest, src, 5));
+	printf("%s\n", (char *)ft_memmove(dest, src, 5));
 
     return 0;
 }

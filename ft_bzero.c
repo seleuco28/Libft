@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvelazq <alvelazq@student.42.fr>          +#+  +:+       +#+        */
+/*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/21 17:29:55 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/11 12:33:25 by alvelazq         ###   ########.fr       */
+/*   Updated: 2022/04/29 16:35:14 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,11 +28,11 @@ void	*ft_bzero(void *s, size_t n)
 }
 /*
 int main (void) {
-	//char str[] = "Hola que tal buenos dias pues aqui estamos niño";
-	char prueba[] = "Hola que tal buenos dias pues aqui estamos niño";
+	char str[] = "Hola que tal buenos dias pues aqui estamos niño";
+	char str1[] = "Hola que tal buenos dias pues aqui estamos niño";
 	
-	//printf("%s\n", bzero(str, 1));
-	printf("%s\n", ft_bzero(prueba, 0));
+	printf("%s\n", (char *)bzero(str, 10));
+	printf("%s\n", (char *)ft_bzero(str1, 10));
 	return(0);
 }
 */

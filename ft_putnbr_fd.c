@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvelazq <alvelazq@student.42.fr>          +#+  +:+       +#+        */
+/*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/30 13:07:24 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/09 12:19:07 by alvelazq         ###   ########.fr       */
+/*   Updated: 2022/04/29 17:17:55 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <unistd.h>
 //#include "ft_putchar_fd.c"
 //#include "ft_putnbr_fd.c"
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvelazq <alvelazq@student.42.fr>          +#+  +:+       +#+        */
+/*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 08:31:47 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/09 11:55:12 by alvelazq         ###   ########.fr       */
+/*   Updated: 2022/04/29 16:34:35 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,12 +38,13 @@ int	ft_atoi(const char *str)
 	}
 	return (signo * resultado);
 }
+
 /*
 int main(void)
 {
 
-    printf("%d\n", atoi("-99999999999999999999999999"));
-    printf("%d\n", ft_atoi("-99999999999999999999999999"));
+    printf("%d\n", atoi("-234"));
+    printf("%d\n", ft_atoi("-234"));
     return(0);
 }
 */

@@ -3,20 +3,26 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alvelazq <alvelazq@student.42.fr>          +#+  +:+       +#+        */
+/*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/28 13:42:07 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/09 12:20:15 by alvelazq         ###   ########.fr       */
+/*   Updated: 2022/04/29 17:19:19 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 //#include "ft_strlcpy.c"
-#include <stdlib.h>
-#include <stdio.h>
 
 static char	**ft_error(char **tab)
 {
+	int	i;
+
+	i = 0;
+	while (tab[i])
+	{
+		free(tab[i]);
+		i++;
+	}
 	free(tab);
 	return (NULL);
 }
