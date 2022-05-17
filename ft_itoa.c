@@ -6,7 +6,7 @@
 /*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/29 12:52:37 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/29 16:51:03 by alvarovelaz      ###   ########.fr       */
+/*   Updated: 2022/05/10 11:57:44 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,11 +53,10 @@ char	*ft_itoa(int n)
 		str[0] = '-';
 	return (str);
 }
-/*
+
 int main(void)
 {
     printf("%s\n", ft_itoa(-65));
 
     return (0);
 }
-*/

@@ -6,7 +6,7 @@
 /*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/26 17:10:39 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/29 17:24:42 by alvarovelaz      ###   ########.fr       */
+/*   Updated: 2022/05/08 14:06:54 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,8 +44,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 /*
 int main(void)
 {
-	char str1[] = "abc";
-	char str2[] = "deffff";
+	char str1[] = "hola muy buenas ";
+	char str2[] = "pues aqui estamos.";
 
 	printf("%s\n", ft_strjoin(str1, str2));
 	return(0);

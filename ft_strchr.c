@@ -6,7 +6,7 @@
 /*   By: alvarovelazquez <alvarovelazquez@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/22 16:00:54 by alvelazq          #+#    #+#             */
-/*   Updated: 2022/04/29 17:20:31 by alvarovelaz      ###   ########.fr       */
+/*   Updated: 2022/05/17 13:20:47 by alvarovelaz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ char	*ft_strchr(const char *s, int c)
 	int	i;
 
 	i = 0;
+	if (!s)
+		return (0);
 	while (s[i])
 	{
 		if ((char)c == (char)s[i])
@@ -32,11 +34,11 @@ char	*ft_strchr(const char *s, int c)
 /*
 int main(void)
 {
-    char tweet[] = "tripouille";
-	char tweet1[] = "tripouille";
+    char tweet[] = "tripouillete hola buenas tardes";
+	char tweet1[] = "tripouillete hola buenas tardes";
 	
-	printf("%s\n", strchr(tweet1, 't' + 256));
-    printf("%s\n", ft_strchr(tweet, 't' + 256));
+	printf("%s\n", strchr(tweet1, 'a'));
+    printf("%s\n", ft_strchr(tweet, 'a'));
 
     return(0);
 }
